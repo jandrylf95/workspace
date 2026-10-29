@@ -1,4 +1,4 @@
-# Step-by-step Execution Pipeline
+# Step-by-step First Commit
 #### To set the first commit 
 
 ### 1. Create .gitignore file
@@ -88,4 +88,31 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 ### 7. Push local main branch
 ```ps
 git push -u origin main
+```
+---
+---
+---
+<br><br>
+
+# Stage all Changes
+
+### 1. Stage all changes
+Git automatically detects all the changes an sellect them. 
+```ps
+git add -A  (Same as > git add --All)
+```
+
+### 2. Verify if Git identified the move or changes
+```ps
+git status
+```
+
+### 3. Commit
+```ps
+git commit -m "name of commit"
+```
+
+### 4. Push to remote
+```ps
+git push origin main
 ```
