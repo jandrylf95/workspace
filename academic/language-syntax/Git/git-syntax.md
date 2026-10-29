@@ -91,7 +91,6 @@ git push -u origin main
 ```
 ---
 ---
----
 <br><br>
 
 # Stage all Changes
@@ -113,6 +112,33 @@ git commit -m "name of commit"
 ```
 
 ### 4. Push to remote
+```ps
+git push origin main
+```
+---
+---
+<br><br>
+
+# Commit a specific file
+
+### 1. Stage only the target file 
+```ps
+git add path/to/your/file.ext
+```
+
+### 2. Verify that only that file is in the stagin area
+
+```ps
+gis status
+```
+
+### 3. Conventional commit
+
+```ps
+git commit -m "descriptive message of the changes"
+```
+
+### 4. Push
 ```ps
 git push origin main
 ```
