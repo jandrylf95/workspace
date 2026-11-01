@@ -153,7 +153,7 @@ function get_cluster_status(string $clusterId): array {
 | `db.internal` | `6379` | $1,280.50 |
 | --- | --- | --- | `<h1>` |
 
-## Escaping Characters
+## 9. Escaping Characters
 
 \*This text will not be italicized\*
 \# This is not a heading

@@ -1,4 +1,4 @@
-# WHAT WE DID THIS WEEK (DBA)
+# WHAT WE DID THIS WEEK (db-admin)
 
 ## Week 4
 1. Already watch this week video tutorial from the tutor.

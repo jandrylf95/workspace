@@ -2,7 +2,7 @@
 
 ## **Sublanguage**
 
-| **Name** | **Purpouse** | **Key command** |
+| **Name** | **Purpose** | **Key command** |
 | :---: | :---: | :---: |
 | **DDL (Data Definition Language)** | Defines and alters database structures/schemas. | `CREATE` , `ALTER` , `DROP` , `SHOW` |
 | **DML (Data Manipulation Language)** | Manage and queries data inside table. | `SELECT` , `INSERT` , `UPDATE` , `DELETE` |
@@ -57,16 +57,18 @@ FROM table_name
 WHERE condition;
 ```
 ```sql
-SELECT name_, salary FROM emp WHERE depId = 10;
+SELECT name_, salary 
+FROM emp 
+WHERE depId = 10;
 ```
 
 #### 2. INSERT
-Add new rows (tuplas) into a table.
+Add new rows (tuples) into a table.
 ```sql
 INSERT INTO table_name (column1, column2)
 VALUES (value1, value 2); 
 ```
-- Specify column names is opcional.
+- Specify column names is optional.
 - If you don't specify the column names, you must provide values for every single column in the table.
 - You must list the values in the order that the columns where defined.  
 Example:
@@ -80,7 +82,7 @@ VALUES (5, 'Australia');
 ```
 
 #### 3. UPDATE
-Modify especific values inside specific columns of a table.
+Modify specific values inside specific columns of a table.
 ```sql
 UPDATE table_name
 SET column1 = value1

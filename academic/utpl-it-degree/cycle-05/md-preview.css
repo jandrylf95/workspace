@@ -1,0 +1,13 @@
+/* Target list items containing a checked checkbox */
+li:has(input[type="checkbox"]:checked) {
+  text-decoration: line-through;
+  opacity: 0.6;
+  color: var(--vscode-disabledForeground, #888888);
+  transition: opacity 0.2s ease, text-decoration 0.2s ease;
+}
+
+/* Ensure the checkbox itself retains full visibility */
+li:has(input[type="checkbox"]:checked) input[type="checkbox"] {
+  text-decoration: none;
+  opacity: 1;
+}
